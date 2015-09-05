@@ -1,0 +1,6 @@
+package CommonProto;
+
+message Response{
+	required int32 id = 1;
+	optional string desc = 2;
+}

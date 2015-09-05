@@ -1,0 +1,5 @@
+package TEST;
+message Echo_Str
+{
+	required string text = 1; 
+}

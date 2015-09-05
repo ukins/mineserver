@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Core">
+      <UniqueIdentifier>{236decf2-11f5-4a44-ab4c-b54e085937b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Core\TimeTicker">
+      <UniqueIdentifier>{94f39bf5-479f-4554-b484-7838c8e6c6d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Core\proto_data">
+      <UniqueIdentifier>{954df14d-eff2-4365-addf-b270c4fcf4e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Core\Protocol">
+      <UniqueIdentifier>{faf24b0e-f952-4028-a27f-0ac2c646f1c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Core\Network">
+      <UniqueIdentifier>{7b6c30ca-6477-4ab8-b669-3768ec6fdd87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Core\DataBase">
+      <UniqueIdentifier>{9874ea11-4003-42d7-9c82-b7a0928172be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Core\EventMgr">
+      <UniqueIdentifier>{01cc3df8-a89d-4781-b7bc-244cb99d1be6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Core\LockObject">
+      <UniqueIdentifier>{47ab121b-7ab3-4613-9278-440a7407321c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Core\Log">
+      <UniqueIdentifier>{86679fed-ff3d-45e9-ac2f-e0e92cdb9248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Core\Module">
+      <UniqueIdentifier>{6dc3cbc7-4476-4e43-890f-59a720db4bc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Expand">
+      <UniqueIdentifier>{a8d871b4-e08f-4635-b60a-fcf0bf8da0d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Expand\LoginModule">
+      <UniqueIdentifier>{2110d1cb-5674-4625-8f24-be6f830c3ec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Core">
+      <UniqueIdentifier>{886961cb-9319-42a4-b91d-0597cf5c7b22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Core\Network">
+      <UniqueIdentifier>{b077dc07-8bcb-4021-acbe-626e341b3569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Core\DataBase">
+      <UniqueIdentifier>{c23f045a-99fb-4aa5-b5c3-57902d687a04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Core\EventMgr">
+      <UniqueIdentifier>{bac3f1bf-7a4b-4f62-a174-413c7f4fe5fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Core\LockObject">
+      <UniqueIdentifier>{5f75ff48-1caf-4839-a4f5-b2454b95201e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Core\Log">
+      <UniqueIdentifier>{5c7a29f5-f4fa-4bcc-aedb-14d239940882}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Core\Module">
+      <UniqueIdentifier>{f9a8fc80-1b01-402b-8f14-f06d71f4b854}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Core\proto_data">
+      <UniqueIdentifier>{d10b344a-9faf-48fe-86a2-1a6ad1260079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Core\Protocol">
+      <UniqueIdentifier>{04ad853f-0d79-48ec-8e99-e1cbce749e30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Core\TimeTicker">
+      <UniqueIdentifier>{2f063c4d-36de-4559-94f4-7330786a651f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Expand">
+      <UniqueIdentifier>{9fb9b1c0-090d-4f80-860c-b72e35740f6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Expand\LoginModule">
+      <UniqueIdentifier>{2e822d33-9449-4852-aa47-58e7e53035a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Expand\LoginModule\Protocol">
+      <UniqueIdentifier>{1237fd05-c509-4993-9041-f64afd20b6ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Expand\LoginModule\Protocol">
+      <UniqueIdentifier>{37c753a0-3877-48d2-9338-34b31c47d0c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Utils">
+      <UniqueIdentifier>{3158c3f1-60b5-4134-a767-5d2df140113e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Utils">
+      <UniqueIdentifier>{7dbf63e3-69e3-4917-a87b-d7c1f29b6173}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="ReadMe_Core.txt">
+      <Filter>头文件\Core</Filter>
+    </Text>
+    <Text Include="ReadMe_Expand.txt">
+      <Filter>头文件\Expand</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBaseEvent.h">
+      <Filter>头文件\Core\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBaseModule.h">
+      <Filter>头文件\Core\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBaseMySql.h">
+      <Filter>头文件\Core\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBaseProxy.h">
+      <Filter>头文件\Core\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="IDataBase.h">
+      <Filter>头文件\Core\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseDelegate.h">
+      <Filter>头文件\Core\EventMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseEvent.h">
+      <Filter>头文件\Core\EventMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseEventDispatcher.h">
+      <Filter>头文件\Core\EventMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="IBaseDelegate.h">
+      <Filter>头文件\Core\EventMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Lock.h">
+      <Filter>头文件\Core\LockObject</Filter>
+    </ClInclude>
+    <ClInclude Include="LockableObject.h">
+      <Filter>头文件\Core\LockObject</Filter>
+    </ClInclude>
+    <ClInclude Include="LockCriticalSection.h">
+      <Filter>头文件\Core\LockObject</Filter>
+    </ClInclude>
+    <ClInclude Include="LockList.h">
+      <Filter>头文件\Core\LockObject</Filter>
+    </ClInclude>
+    <ClInclude Include="LogMgr.h">
+      <Filter>头文件\Core\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="LogModule.h">
+      <Filter>头文件\Core\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseModule.h">
+      <Filter>头文件\Core\Module</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleMgr.h">
+      <Filter>头文件\Core\Module</Filter>
+    </ClInclude>
+    <ClInclude Include="Connect.h">
+      <Filter>头文件\Core\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectMgr.h">
+      <Filter>头文件\Core\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkEvent.h">
+      <Filter>头文件\Core\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkMgr.h">
+      <Filter>头文件\Core\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkModule.h">
+      <Filter>头文件\Core\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="echo_str.pb.h">
+      <Filter>头文件\Core\proto_data</Filter>
+    </ClInclude>
+    <ClInclude Include="people.pb.h">
+      <Filter>头文件\Core\proto_data</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtocolEvent.h">
+      <Filter>头文件\Core\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtocolModule.h">
+      <Filter>头文件\Core\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Receive.h">
+      <Filter>头文件\Core\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeEvent.h">
+      <Filter>头文件\Core\TimeTicker</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeModule.h">
+      <Filter>头文件\Core\TimeTicker</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeTicker.h">
+      <Filter>头文件\Core\TimeTicker</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginModule.h">
+      <Filter>头文件\Expand\LoginModule</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginEvent.h">
+      <Filter>头文件\Expand\LoginModule</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginProtocol.h">
+      <Filter>头文件\Expand\LoginModule</Filter>
+    </ClInclude>
+    <ClInclude Include="chatapp.pb.h">
+      <Filter>头文件\Expand\LoginModule\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="charset.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="login.pb.h">
+      <Filter>头文件\Expand\LoginModule\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="response.pb.h">
+      <Filter>头文件\Core\proto_data</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBaseEvent.cpp">
+      <Filter>源文件\Core\DataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBaseModule.cpp">
+      <Filter>源文件\Core\DataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBaseMySql.cpp">
+      <Filter>源文件\Core\DataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBaseProxy.cpp">
+      <Filter>源文件\Core\DataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="IDataBase.cpp">
+      <Filter>源文件\Core\DataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseEvent.cpp">
+      <Filter>源文件\Core\EventMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseEventDispatcher.cpp">
+      <Filter>源文件\Core\EventMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="IBaseDelegate.cpp">
+      <Filter>源文件\Core\EventMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseDelegate.cpp">
+      <Filter>源文件\Core\EventMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="LockableObject.cpp">
+      <Filter>源文件\Core\LockObject</Filter>
+    </ClCompile>
+    <ClCompile Include="LockCriticalSection.cpp">
+      <Filter>源文件\Core\LockObject</Filter>
+    </ClCompile>
+    <ClCompile Include="LockList.cpp">
+      <Filter>源文件\Core\LockObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Lock.cpp">
+      <Filter>源文件\Core\LockObject</Filter>
+    </ClCompile>
+    <ClCompile Include="LogMgr.cpp">
+      <Filter>源文件\Core\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="LogModule.cpp">
+      <Filter>源文件\Core\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseModule.cpp">
+      <Filter>源文件\Core\Module</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleMgr.cpp">
+      <Filter>源文件\Core\Module</Filter>
+    </ClCompile>
+    <ClCompile Include="MineServer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Connect.cpp">
+      <Filter>源文件\Core\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectMgr.cpp">
+      <Filter>源文件\Core\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkEvent.cpp">
+      <Filter>源文件\Core\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkMgr.cpp">
+      <Filter>源文件\Core\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkModule.cpp">
+      <Filter>源文件\Core\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="echo_str.pb.cc">
+      <Filter>源文件\Core\proto_data</Filter>
+    </ClCompile>
+    <ClCompile Include="people.pb.cc">
+      <Filter>源文件\Core\proto_data</Filter>
+    </ClCompile>
+    <ClCompile Include="ProtocolEvent.cpp">
+      <Filter>源文件\Core\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="ProtocolModule.cpp">
+      <Filter>源文件\Core\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="Receive.cpp">
+      <Filter>源文件\Core\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeEvent.cpp">
+      <Filter>源文件\Core\TimeTicker</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeModule.cpp">
+      <Filter>源文件\Core\TimeTicker</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeTicker.cpp">
+      <Filter>源文件\Core\TimeTicker</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginModule.cpp">
+      <Filter>源文件\Expand\LoginModule</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginEvent.cpp">
+      <Filter>源文件\Expand\LoginModule</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginProtocol.cpp">
+      <Filter>源文件\Expand\LoginModule</Filter>
+    </ClCompile>
+    <ClCompile Include="chatapp.pb.cc">
+      <Filter>源文件\Expand\LoginModule\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="charset.cpp">
+      <Filter>源文件\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="login.pb.cc">
+      <Filter>源文件\Expand\LoginModule\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="response.pb.cc">
+      <Filter>源文件\Core\proto_data</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MineServer.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+package ChatApp;
+
+message User{
+	required string name = 1;
+	required string chat = 2;
+	optional string email = 3;
+}
+
+message Chat{
+	repeated User user = 1;
+}

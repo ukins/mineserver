@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{230359C9-B071-4A54-8175-F299854539DC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>MineServer</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);E:\customCode\visual studio 2013\Projects\MineServer\MineServer\include;</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);E:\customCode\visual studio 2013\Projects\MineServer\MineServer\lib;</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions);_SCL_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies);libprotobuf.lib;libmysql.lib;</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="ReadMe_Core.txt" />
+    <Text Include="ReadMe_Expand.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseDelegate.h" />
+    <ClInclude Include="BaseEvent.h" />
+    <ClInclude Include="BaseEventDispatcher.h" />
+    <ClInclude Include="BaseModule.h" />
+    <ClInclude Include="charset.h" />
+    <ClInclude Include="chatapp.pb.h" />
+    <ClInclude Include="Connect.h" />
+    <ClInclude Include="ConnectMgr.h" />
+    <ClInclude Include="DataBaseEvent.h" />
+    <ClInclude Include="DataBaseModule.h" />
+    <ClInclude Include="DataBaseMySql.h" />
+    <ClInclude Include="DataBaseProxy.h" />
+    <ClInclude Include="echo_str.pb.h" />
+    <ClInclude Include="IBaseDelegate.h" />
+    <ClInclude Include="IDataBase.h" />
+    <ClInclude Include="Lock.h" />
+    <ClInclude Include="LockableObject.h" />
+    <ClInclude Include="LockCriticalSection.h" />
+    <ClInclude Include="LockList.h" />
+    <ClInclude Include="login.pb.h" />
+    <ClInclude Include="LoginEvent.h" />
+    <ClInclude Include="LoginModule.h" />
+    <ClInclude Include="LoginProtocol.h" />
+    <ClInclude Include="LogMgr.h" />
+    <ClInclude Include="LogModule.h" />
+    <ClInclude Include="ModuleMgr.h" />
+    <ClInclude Include="NetworkEvent.h" />
+    <ClInclude Include="NetworkMgr.h" />
+    <ClInclude Include="NetworkModule.h" />
+    <ClInclude Include="people.pb.h" />
+    <ClInclude Include="ProtocolEvent.h" />
+    <ClInclude Include="ProtocolModule.h" />
+    <ClInclude Include="Receive.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="response.pb.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TimeEvent.h" />
+    <ClInclude Include="TimeModule.h" />
+    <ClInclude Include="TimeTicker.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseDelegate.cpp" />
+    <ClCompile Include="BaseEvent.cpp" />
+    <ClCompile Include="BaseEventDispatcher.cpp" />
+    <ClCompile Include="BaseModule.cpp" />
+    <ClCompile Include="charset.cpp" />
+    <ClCompile Include="chatapp.pb.cc" />
+    <ClCompile Include="Connect.cpp" />
+    <ClCompile Include="ConnectMgr.cpp" />
+    <ClCompile Include="DataBaseEvent.cpp" />
+    <ClCompile Include="DataBaseModule.cpp" />
+    <ClCompile Include="DataBaseMySql.cpp" />
+    <ClCompile Include="DataBaseProxy.cpp" />
+    <ClCompile Include="echo_str.pb.cc" />
+    <ClCompile Include="IBaseDelegate.cpp" />
+    <ClCompile Include="IDataBase.cpp" />
+    <ClCompile Include="Lock.cpp" />
+    <ClCompile Include="LockableObject.cpp" />
+    <ClCompile Include="LockCriticalSection.cpp" />
+    <ClCompile Include="LockList.cpp" />
+    <ClCompile Include="login.pb.cc" />
+    <ClCompile Include="LoginEvent.cpp" />
+    <ClCompile Include="LoginModule.cpp" />
+    <ClCompile Include="LoginProtocol.cpp" />
+    <ClCompile Include="LogMgr.cpp" />
+    <ClCompile Include="LogModule.cpp" />
+    <ClCompile Include="MineServer.cpp" />
+    <ClCompile Include="ModuleMgr.cpp" />
+    <ClCompile Include="NetworkEvent.cpp" />
+    <ClCompile Include="NetworkMgr.cpp" />
+    <ClCompile Include="NetworkModule.cpp" />
+    <ClCompile Include="people.pb.cc" />
+    <ClCompile Include="ProtocolEvent.cpp" />
+    <ClCompile Include="ProtocolModule.cpp" />
+    <ClCompile Include="Receive.cpp" />
+    <ClCompile Include="response.pb.cc" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TimeEvent.cpp" />
+    <ClCompile Include="TimeModule.cpp" />
+    <ClCompile Include="TimeTicker.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MineServer.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

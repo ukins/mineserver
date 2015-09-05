@@ -1,0 +1,6 @@
+package LoginProto;
+
+message Login{
+	required string name = 1;
+	required string pwd = 2;
+}
